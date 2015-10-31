@@ -1,0 +1,65 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,700,900);
+
+html { height: 100%; font-size: 100%;}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+	color:black;
+	margin-top:5px;
+}
+
+.clearfix:after {
+    clear: both;
+	color:white;
+}
+
+.clearfix {
+    *zoom: 1;
+	text-align:center;
+	color:red;
+	font-family:Helvetica;
+}
+.clearfix h1{
+    color:white;
+}
+.clearfix h1 span{
+    color:white;
+}
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
+    overflow: scroll;
+    overflow-x: hidden;
+	background:url("../images/bg.jpg") repeat;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	position:relative;
+	margin:0 auto;
+}
+
+
+
+ 
